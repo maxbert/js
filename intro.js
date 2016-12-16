@@ -1,4 +1,5 @@
-
+var head = document.getElementById("h");
+head = head.innerHTML;
 
 var f = function(e) {
     var list = document.getElementById("thelist");
@@ -21,6 +22,7 @@ var d = function(text) {
 };
 for(i; i < listy.length; i++){
     listy[i].addEventListener('mouseover', d(listy[i].innetHTML));
-} 
+}
+
 
 
